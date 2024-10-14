@@ -1,10 +1,11 @@
 # Email Phishing Challenge
 
-Welcome to the Email Phishing Challenge! In this challenge, you will analyze an email sample to determine if it is a phishing attempt. The task involves extracting key details from the email and investigating the associated domain to assess its legitimacy. Follow the steps and answer the questions below.
+Welcome to the Email Phishing Challenge! In this challenge, you will analyze an email sample to determine if it is a phishing attempt. The task involves extracting key details from the email and investigating the associated domain to assess its legitimacy. Could you follow the steps and answer the questions below?
 
 ## Challenge Overview
 
-You are provided with a sample email file uploaded to this repository. Your goal is to extract relevant information from the file and use it to evaluate the authenticity of the email.
+You are provided a **sample email file** uploaded to this repository. To access the file, use the following password:  
+**Password: phishing**
 
 ## Questions to Answer:
 
@@ -15,7 +16,7 @@ You are provided with a sample email file uploaded to this repository. Your goal
    - Identify any URLs in the email body and extract the domain name. You can use regular expressions or a URL parsing tool to assist in this task.
 
 3. **Is the domain mentioned in the previous question suspicious?**
-   - Investigate the domain using online tools like [VirusTotal](https://www.virustotal.com/), [URLVoid](https://www.urlvoid.com/), or a WHOIS lookup service. Check if the domain has been flagged or is newly registered, as phishing domains often have limited history.
+   - Investigate the domain using online tools like [VirusTotal](https://www.virustotal.com/), [URLVoid](https://www.urlvoid.com/), or a WHOIS lookup service. Check if the domain has been flagged or is newly registered, as phishing domains often have a limited history.
 
 4. **What is the body SHA-256 of the domain?**
    - Generate the SHA-256 hash for the email body using a hash generator. This can help in comparing the email content to known phishing campaigns.
